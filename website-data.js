@@ -168,5 +168,5 @@ const websiteData = {
     }
   ],
 
-  footerText: "Temporary local website preview· Not published online"  
+  footerText: ""  
 };
