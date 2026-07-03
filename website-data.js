@@ -71,6 +71,8 @@ const websiteData = {
     }
   ],
 
+
+  
   // Small boxes on the first page
   quickFacts: [
     { label: "Format", value: "Half-day" },
@@ -121,6 +123,8 @@ const websiteData = {
 
   // Program Committee
   programCommittee: [],
+
+
   
   // Organizers
   organizers: [
