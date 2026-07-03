@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="browser-title">RAISE-Arch Workshop</title>
+  <link rel="stylesheet" href="style.css?v=20260701-2" />
+  <link rel="stylesheet" href="hero-flow.css?v=20260702-1" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="RAISE-Arch Workshop home">
+        <img
+          class="brand-logo-image"
+          src="assets/images/raise-arch-logo.png"
+          alt="RAISE-Arch Workshop logo"
+        />
+        <span id="nav-title" class="sr-only">RAISE-Arch Workshop</span>
+      </a>
+
+      <nav class="desktop-menu" id="desktop-menu"></nav>
+
+      <button class="menu-button" id="menu-button" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-menu" id="mobile-menu"></nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <h1 id="workshop-short-title" class="sr-only"></h1>
+
+          <img
+            class="hero-logo-image"
+            src="assets/images/raise-arch-logo.png"
+            alt="RAISE-Arch MICRO 2026 Workshop logo"
+          />
+          <!--
+          <p class="pill" id="workshop-label"></p>
+          -->
+          <p class="subtitle" id="workshop-subtitle"></p>
+
+          <!--
+          <div class="hero-buttons" id="hero-buttons"></div>
+          -->
+
+          <div class="hero-meta">
+            <div>
+              <span>Date</span>
+              <strong id="workshop-date"></strong>
+            </div>
+            <div>
+              <span>Location</span>
+              <strong id="workshop-location"></strong>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <div class="hero-card-inner">
+            <div class="countdown-panel" id="countdown-panel"></div>
+          </div>
+
+          <!--
+          <div class="quick-facts" id="quick-facts"></div>
+          -->
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap">
+        <h2>About the Workshop</h2>
+        <div id="about-text"></div>
+      </div>
+    </section>
+
+    <section id="cfp" class="section soft-section">
+      <div class="wrap">
+        <h2>Call for Papers</h2>
+        <div id="cfp-text"></div>
+      </div>
+    </section>
+
+    <section id="topics" class="section">
+      <div class="wrap">
+        <h2>Topics of Interest</h2>
+        <div class="topic-grid" id="topics-list"></div>
+      </div>
+    </section>
+
+    <section id="dates" class="section soft-section">
+      <div class="wrap">
+        <h2>Important Dates</h2>
+        <div class="dates-card" id="dates-list"></div>
+      </div>
+    </section>
+
+    <section id="submission" class="section soft-section">
+      <div class="wrap section-grid">
+        <div>
+          <h2>Submission Guidelines</h2>
+          <div id="submission-guidelines-text"></div>
+        </div>
+
+        <aside class="side-card">
+          <h3>Submission</h3>
+          <p id="submission-note">TBD</p>
+          <a class="button primary" id="submission-button" href="#submission">Submission site TBD</a>
+        </aside>
+      </div>
+    </section>
+
+    <section id="program" class="section soft-section">
+      <div class="wrap">
+        <h2>Workshop Schedule</h2>
+        <div class="program-grid" id="program-list"></div>
+      </div>
+    </section>
+
+    <section id="speakers" class="section">
+      <div class="wrap">
+        <h2>Speakers</h2>
+        <div class="people-grid" id="speakers-list"></div>
+      </div>
+    </section>
+
+    <section id="program-committee" class="section soft-section">
+      <div class="wrap">
+        <h2>Program Committee</h2>
+        <div class="committee-grid" id="program-committee-list"></div>
+      </div>
+    </section>
+
+    <section id="organizers" class="section">
+      <div class="wrap">
+        <h2>Organizers</h2>
+        <div class="people-grid organizers" id="organizers-list"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section soft-section">
+      <div class="wrap contact-box">
+        <div>
+          <h2>Contact</h2>
+          <p>For questions about the workshop, please contact the organizing team at <span id="contact-email-text"></span>.</p>
+        </div>
+        <a class="button primary" id="contact-email" href="#"></a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer-text"></footer>
+
+  <script src="website-data.js?v=20260702-1"></script>
+  <script src="script.js?v=20260702-1"></script>
+</body>
+</html>
