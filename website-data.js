@@ -32,7 +32,7 @@ const websiteData = {
 
   date: "Oct. 31 or Nov. 1, 2026",
   location: "Athens, Greece",
-  email: "TBD",
+  email: "TBD soon",
 
   // Top navigation menu
   menu: [
