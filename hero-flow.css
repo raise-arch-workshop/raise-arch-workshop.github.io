@@ -291,18 +291,34 @@
 
 .program-committee-list {
   grid-column: 1 / -1;
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  column-gap: 40px;
+  grid-template-columns: repeat(3, max-content);
+  justify-content: space-between;
+  column-gap: 64px;
   row-gap: .55rem;
+  margin: 0;
+  padding: 24px 28px 24px 48px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: white;
+  box-shadow: 0 8px 24px rgba(15,35,60,.06);
+  font-size: clamp(.9rem, .95vw, 1.04rem) !important;
+  overflow-x: auto;
 }
 
 .program-committee-list li {
   margin: 0;
+  white-space: nowrap;
 }
 
 @media (max-width: 980px) {
   .program-committee-list {
     grid-template-columns: 1fr;
+    padding: 20px 22px 20px 42px;
+  }
+
+  .program-committee-list li {
+    white-space: normal;
   }
 }
