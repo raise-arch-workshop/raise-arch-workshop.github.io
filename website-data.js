@@ -61,7 +61,7 @@ const websiteData = {
   countdowns: [
     {
       title: "Paper Submission Deadline",
-      targetDate: "",
+      targetDate: "2026-09-07T23:59:59-12:00",
       color: "black"
     },
     {
@@ -110,8 +110,8 @@ const websiteData = {
 
   // Important dates
   dates: [
-    { label: "Paper submission deadline", value: "TBD" },
-    { label: "Author notification", value: "TBD" },
+    { label: "Paper submission deadline", value: "7th of Sept. 2026 (AoE)" },
+    { label: "Author notification", value: "October 1, 2026 (AoE)" },
     { label: "Workshop date", value: "Oct. 31 / Nov. 1" }
   ],
 
