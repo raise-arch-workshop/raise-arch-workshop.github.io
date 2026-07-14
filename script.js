@@ -160,7 +160,13 @@ function renderPage() {
 
   document.getElementById("program-committee-list").innerHTML =
     websiteData.programCommittee.length
-      ? websiteData.programCommittee.map(createCommitteeCard).join("")
+      ? `
+        <ul class="submission-list program-committee-list">
+          ${websiteData.programCommittee
+            .map(person => `<li>${person.name} (${person.affiliation})</li>`)
+            .join("")}
+        </ul>
+      `
       : createTbdCard();
 
   document.getElementById("organizers-list").innerHTML = websiteData.organizers

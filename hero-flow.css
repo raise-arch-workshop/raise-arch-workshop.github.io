@@ -288,3 +288,21 @@
     font-size: .9rem;
   }
 }
+
+.program-committee-list {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 40px;
+  row-gap: .55rem;
+}
+
+.program-committee-list li {
+  margin: 0;
+}
+
+@media (max-width: 980px) {
+  .program-committee-list {
+    grid-template-columns: 1fr;
+  }
+}

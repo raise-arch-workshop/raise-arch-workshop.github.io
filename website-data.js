@@ -122,7 +122,27 @@ const websiteData = {
   speakers: [],
 
   // Program Committee
-  programCommittee: [],
+  programCommittee: [
+    { name: "Nima TaheriNejad", affiliation: "Heidelberg University, Germany" },
+    { name: "Holger Fröning", affiliation: "Heidelberg University, Germany" },
+    { name: "Ilia Petrov", affiliation: "Reutlingen University, Germany" },
+    { name: "Jana Giceva", affiliation: "Technical University of Munich, Germany" },
+    { name: "Mohammad Alian", affiliation: "Cornell University, USA" },
+    { name: "Sara Vinco", affiliation: "Politecnico di Torino, Italy" },
+    { name: "Geraldo F. Oliveira", affiliation: "Huawei, Switzerland" },
+    { name: "Jonas Dann", affiliation: "ETH Zürich, Switzerland" },
+    { name: "Mohammad Kazem Taram", affiliation: "Purdue University, USA" },
+    { name: "Leonardo Solis-Vasquez", affiliation: "TU Darmstadt, Germany" },
+    { name: "João P. C. Lima", affiliation: "TU Dresden, Germany" },
+    { name: "Nezam Rohbani", affiliation: "Barcelona Supercomputing Center, Spain" },
+    { name: "Stratos Psomadakis", affiliation: "National Technical University of Athens, Greece" },
+    { name: "Mohammad Loni", affiliation: "Volvo Autonomous Solutions, Sweden" },
+    { name: "Stefano Cordo", affiliation: "Huawei, Switzerland" },
+    { name: "Daniele Passaretti", affiliation: "Otto-von-Guericke University Magdeburg, Germany" },
+    { name: "Sina Darabi", affiliation: "Barcelona Supercomputing Center, Spain" },
+    { name: "Chenyu Zeng", affiliation: "Huawei, China" },
+    { name: "Ashkan Asgharzadeh", affiliation: "Barcelona Supercomputing Center, Spain" }
+  ],
 
 
   
