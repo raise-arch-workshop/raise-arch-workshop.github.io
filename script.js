@@ -167,7 +167,7 @@ function renderPage() {
             .join("")}
         </ul>
       `
-      : createTbdCard();
+      : `<div class="tbd-card">Coming soon</div>`;
 
   document.getElementById("organizers-list").innerHTML = websiteData.organizers
     .map((person, index) => createOrganizerCard(person, index))
