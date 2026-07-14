@@ -61,7 +61,7 @@ const websiteData = {
   countdowns: [
     {
       title: "Paper Submission Deadline",
-      targetDate: "2026-09-07T23:59:59-12:00",
+      targetDate: "2026-09-08T00:00:00-12:00",
       color: "black"
     },
     {

@@ -46,10 +46,11 @@ function renderCountdowns() {
 
 function updateCountdowns() {
   const groups = document.querySelectorAll("[data-countdown-index]");
+  const now = Date.now();
 
   groups.forEach(group => {
     const timer = websiteData.countdowns[Number(group.dataset.countdownIndex)];
-    const values = getTimeRemaining(timer.targetDate);
+    const values = getTimeRemaining(timer.targetDate, now);
 
     group.querySelector('[data-unit="days"]').textContent = values.days;
     group.querySelector('[data-unit="hours"]').textContent = values.hours;
@@ -58,13 +59,12 @@ function updateCountdowns() {
   });
 }
 
-function getTimeRemaining(targetDate) {
+function getTimeRemaining(targetDate, now = Date.now()) {
   if (!targetDate) {
     return { days: "00", hours: "00", minutes: "00", seconds: "00" };
   }
 
   const target = new Date(targetDate).getTime();
-  const now = new Date().getTime();
   const distance = Math.max(0, target - now);
 
   const days = Math.floor(distance / (1000 * 60 * 60 * 24));
