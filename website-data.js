@@ -51,7 +51,7 @@ const websiteData = {
   // Buttons on the first page
   heroButtons: [
     { text: "Call for Papers", link: "#cfp", style: "primary" },
-    { text: "Submission site TBD", link: "#submission", style: "primary" },
+    { text: "Submit via EasyChair", link: "https://easychair.org/my/conference?conf=raisearch2026", style: "primary" },
     { text: "Important Dates", link: "#dates", style: "secondary" },
     { text: "Schedule", link: "#program", style: "secondary" },
     { text: "Contact Organizers", link: "#contact", style: "secondary" }
@@ -93,7 +93,7 @@ const websiteData = {
   ],
 
   submissionNote: "<ul class='submission-list'><li>RAISE-Arch welcomes submissions in the form of extended abstracts related to the workshop topics.</li><li>Submissions should be max 2 pages, excluding references, and submitted as a printable PDF file. All submissions must be in English.</li><li>Each submission should include the title, author names, affiliations, and contact email. Submissions should not be anonymized.</li><li>We strongly encourage authors to use the provided LaTeX template: <a class='template-link' href='https://www.microarch.org/micro59/submit/micro59-latex-template.zip'>Download LaTeX Template (ZIP)</a>.</li><li>No formal proceedings are planned, and submissions are intended to be non-archival. Presentation slides or related materials may be posted on the workshop website after the event, subject to author approval.</li><li>At least one author of each accepted contribution is expected to attend the workshop and present the work.</li></ul>",
-  submissionLink: "#submission",
+  submissionLink: "https://easychair.org/my/conference?conf=raisearch2026",
 
   // Topics of interest
   topics: [
