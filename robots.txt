@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://raise-arch-workshop.github.io/sitemap.xml
