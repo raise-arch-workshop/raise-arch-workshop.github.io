@@ -180,6 +180,7 @@ function renderPage() {
   const contactEmailText = document.getElementById("contact-email-text");
   if (contactEmailText) {
     contactEmailText.textContent = websiteData.email;
+    contactEmailText.href = `mailto:${websiteData.email}`;
   }
 
   document.getElementById("footer-text").textContent = websiteData.footerText;
@@ -250,7 +251,11 @@ function createPersonCard(person) {
 function createOrganizerCard(person, index) {
   const name = isPlaceholderName(person.name) ? `Organizer ${index + 1}` : person.name;
   const affiliation = person.affiliation || "TBD";
-  const email = person.email || "TBD";
+  const emailMarkup = person.email
+    ? person.email === "TBD"
+      ? `<p class="organizer-email">TBD</p>`
+      : `<p class="organizer-email"><a href="mailto:${person.email}">${person.email}</a></p>`
+    : "";
   const details = person.details || person.bio || "More information will be added soon.";
   const image = person.image
     ? `<img src="${person.image}" alt="${name}">`
@@ -262,7 +267,7 @@ function createOrganizerCard(person, index) {
       <div class="organizer-info">
         <h3>${name}</h3>
         <p class="organizer-affiliation">${affiliation}</p>
-        <p class="organizer-email">${email}</p>
+        ${emailMarkup}
         <p class="organizer-details">${details}</p>
       </div>
     </article>
@@ -274,7 +279,7 @@ function isPlaceholderName(name) {
 }
 
 function createTbdCard() {
-  return `<div class="tbd-card">TBD</div>`;
+  return `<div class="tbd-card">Coming soon</div>`;
 }
 
 function setupMenu() {

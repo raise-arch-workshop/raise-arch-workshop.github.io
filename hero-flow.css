@@ -187,6 +187,11 @@
   font-size: .72rem;
 }
 
+.organizer-email a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .organizer-details {
   max-height: 0;
   overflow: hidden;
@@ -211,6 +216,11 @@
     justify-items: start;
     gap: 14px;
     padding: 20px;
+  }
+
+  .organizer-profile:hover .organizer-details,
+  .organizer-profile:focus-within .organizer-details {
+    max-height: 1200px;
   }
 }
 

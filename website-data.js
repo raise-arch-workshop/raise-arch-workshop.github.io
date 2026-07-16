@@ -32,7 +32,7 @@ const websiteData = {
 
   date: "Oct. 31 or Nov. 1, 2026",
   location: "Athens, Greece",
-  email: "TBD soon",
+  email: "raise.arch.micro59@gmail.com",
 
   // Top navigation menu
   menu: [
@@ -102,7 +102,7 @@ const websiteData = {
     "Architectures for reducing data movement across compute, memory, and storage",
     "HBM, HBF, CXL, chiplets, and disaggregated-memory architectures for AI",
     "Computational storage, AI-SSD, and flash-assisted AI system architectures",
-    "AI accelerators, NPUs, heterogeneous SoCs, and rack-scale AI platforms",
+    "AI accelerators, NPUs, FPGAs, heterogeneous SoCs, and rack-scale AI platforms",
     "Redefining CPU architecture and capacity for Agentic AI infrastructure",
     "Benchmarking and evaluation methodologies for data-centric architectures",
     "Tracing and simulation methodologies for emerging workloads"
@@ -132,18 +132,21 @@ const websiteData = {
       initials: "AK",
       name: "Andreas Koch",
       affiliation: "Technical University of Darmstadt",
+      email: "koch@esa.tu-darmstadt.de",
       details: "Andreas Koch is a professor in the Department of Computer Science at TU Darmstadt, Germany. His research interests include domain-specific computer architecture, accelerator architecture, reconfigurable computing, compilers, toolchains, and hardware-conscious data systems, targeting both FPGAs and ASICs. He received his Ph.D. in Engineering from TU Braunschweig in 1997, was a postdoctoral researcher at UC Berkeley from 1997 to 1999, and received his Habilitation from TU Darmstadt in 2005. He has been program chair for the FPL and FPT conferences and organized ARC 2019."
     },
     {
       initials: "ST",
       name: "Sajjad Tamimi",
       affiliation: "Huawei Europe",
+      email: "sajjad.tamimi@gmail.com",
       details: "Sajjad Tamimi is a Senior R&D Engineer at Huawei Research Germany, where he works on AI hardware acceleration, computer architecture, modern hardware systems, and hardware/software co-design. Before joining Huawei, he was a postdoctoral researcher at TU Darmstadt, Germany, where he also received his Ph.D. in Computer Science with highest distinction."
     },
     {
       initials: "BG",
       name: "Boris Grot",
       affiliation: "University of Edinburgh",
+      email: "boris.grot@ed.ac.uk",
       details: "Boris Grot is a Professor in the School of Informatics at the University of Edinburgh, where he leads the Edinburgh Architecture and Systems (EASE) Lab. Boris' research interests include server hardware and software stacks, networking, and datacenter-scale computing. Boris is a member of the MICRO and HPCA Halls of Fame and a recipient of multiple awards for his research. Boris was the Program Chair for MICRO 2022, General Chair for HPCA 2024, and currently sits on the Board of Directors of ACM SIGARCH. He has a PhD from The University of Texas at Austin."
     },
     {
@@ -162,6 +165,7 @@ const websiteData = {
       initials: "ZL",
       name: "Zheng Li",
       affiliation: "Huawei Europe",
+      email: "TBD",
       details: "Zheng Li is a senior R&D and innovation leader with 20 years of international experience in computing architecture, AI, industrial software, and strategic research management. He received his PhD from INRIA, where his research focused on processor architecture and parallel programming models. He later held senior research positions at INRIA and IRT SystemX, contributing to multicore processor architecture and safety-critical real-time systems. Since 2017, Dr. Li has been with Huawei’s European Research Institute, where he leads innovation and academic development and supports strategic collaboration with leading research communities."
     },
     {
