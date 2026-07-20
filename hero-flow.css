@@ -5,6 +5,8 @@
 @media (min-width: 981px) {
   .hero-grid {
     width: min(calc(100vw - 96px), 1560px);
+    margin-left: max(48px, calc((100vw - 1320px) / 2));
+    margin-right: 0;
     grid-template-columns: minmax(0, 1.12fr) minmax(500px, .88fr);
     gap: clamp(18px, 2.2vw, 34px);
     align-items: center;
