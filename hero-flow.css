@@ -31,6 +31,7 @@
 
   .hero-meta {
     max-width: min(100%, 980px);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: clamp(10px, 1.2vw, 18px);
   }
 
@@ -59,6 +60,19 @@
 
   .countdown-row {
     gap: clamp(8px, 1.2vw, 16px);
+  }
+}
+
+.hero-meta-link {
+  color: var(--blue);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 700px) {
+  .hero-meta {
+    grid-template-columns: 1fr;
+    gap: 12px;
   }
 }
 
