@@ -4,7 +4,7 @@
 
 @media (min-width: 981px) {
   .hero-grid {
-    grid-template-columns: minmax(0, 1.12fr) minmax(0, .88fr);
+    grid-template-columns: 1fr;
     gap: clamp(18px, 2.2vw, 34px);
     align-items: center;
     padding: clamp(18px, 1.8vw, 28px) 0 clamp(18px, 2vw, 30px);
@@ -18,7 +18,7 @@
 
   .subtitle {
     width: min(100%, 980px);
-    max-width: min(58vw, 980px);
+    max-width: min(100%, 980px);
     font-size: clamp(1.55rem, 2.1vw, 2.1rem);
     line-height: 1.08;
     letter-spacing: -0.04em;
@@ -34,7 +34,7 @@
   .hero-card {
     width: 100%;
     max-width: clamp(500px, 38vw, 620px);
-    justify-self: end;
+    justify-self: start;
     padding: clamp(14px, 1.2vw, 18px);
   }
 
@@ -342,7 +342,7 @@
 .cfp-heading-row {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 24px;
   margin-bottom: 20px;
 }
