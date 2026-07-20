@@ -37,7 +37,7 @@
   .hero-card {
     width: 100%;
     max-width: clamp(500px, 38vw, 620px);
-    justify-self: end;
+    justify-self: start;
     padding: clamp(14px, 1.2vw, 18px);
   }
 
