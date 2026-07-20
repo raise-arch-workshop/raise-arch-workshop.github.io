@@ -140,7 +140,7 @@ const websiteData = {
       name: "Sajjad Tamimi",
       affiliation: "Huawei Europe",
       email: "sajjad.tamimi@gmail.com",
-      details: "Sajjad Tamimi is a Senior R&D Engineer at Huawei Research Germany, where he works on AI hardware acceleration, computer architecture, modern hardware systems, and hardware/software co-design. Before joining Huawei, he was a postdoctoral researcher at TU Darmstadt, Germany, where he also received his Ph.D. in Computer Science with highest distinction."
+      details: "Sajjad Tamimi is a Senior R&D Engineer at Huawei, where he works on AI hardware and accelerators, computer architecture, memory systems and data movement, and HW/SF co-design. Before joining Huawei, he was a postdoctoral researcher at TU Darmstadt, Germany, working on data-intensive systems, PCIe/CXL/CCIX interconnects, smart storage, and FPGA-based acceleration. He received his Ph.D. in Computer Science with highest distinction (summa cum laude) from TU Darmstadt in 2025. His publications have appeared in IEEE and ACM journals and conference proceedings, two of which have received HiPEAC Paper Awards."
     },
     {
       initials: "BG",
