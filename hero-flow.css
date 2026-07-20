@@ -337,3 +337,27 @@
     white-space: normal;
   }
 }
+
+
+.cfp-heading-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.cfp-heading-row h2 {
+  margin-bottom: 0;
+}
+
+.cfp-heading-row .button {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 980px) {
+  .cfp-heading-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
