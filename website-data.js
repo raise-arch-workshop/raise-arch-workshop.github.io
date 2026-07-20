@@ -30,7 +30,7 @@ const websiteData = {
   workshopLabel: "Workshop | Co-located with MICRO 2026",
   workshopSubtitle: "<u>R</u>efactoring Heterogeneous Systems <u>Arch</u>itectures for <u>S</u>calable and <u>E</u>fficient <u>AI</u> Infrastructure",
 
-  date: "Oct. 31 or Nov. 1, 2026",
+  date: "October 31, 2026",
   location: "Athens, Greece",
   email: "raise.arch.micro59@gmail.com",
 
@@ -66,7 +66,7 @@ const websiteData = {
     },
     {
       title: "Countdown to the Event",
-      targetDate: "2026-10-31T09:00:00+02:00",
+      targetDate: "2026-10-31T08:00:00+02:00",
       color: "blue"
     }
   ],
@@ -112,7 +112,7 @@ const websiteData = {
   dates: [
     { label: "Paper submission deadline", value: "7th of Sept. 2026 (AoE)" },
     { label: "Author notification", value: "October 1, 2026 (AoE)" },
-    { label: "Workshop date", value: "Oct. 31 / Nov. 1" }
+    { label: "Workshop date", value: "October 31, 2026" }
   ],
 
   // Program
