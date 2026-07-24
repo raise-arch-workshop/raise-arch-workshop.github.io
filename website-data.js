@@ -123,6 +123,7 @@ const websiteData = {
 
   // Program Committee
   programCommittee: [
+    { name: "Shaahin Angizi", affiliation: "New Jersey Institute of Technology" },
     { name: "Mohammad Alian", affiliation: "Cornell University" },
     { name: "Ashkan Asgharzadeh", affiliation: "Barcelona Supercomputing Center" },
     { name: "Stefano Cordo", affiliation: "Huawei" },
