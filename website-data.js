@@ -84,7 +84,7 @@ const websiteData = {
   // About the workshop text
   aboutParagraphs: [
     "RAISE-Arch is the first edition of an industry–academic workshop on architectural directions for AI systems, where computing resources, memory bandwidth, memory capacity, storage access, and interconnect scalability are first-order bottlenecks. Modern AI infrastructures increasingly depend on technologies such as HBM, HBF, CXL, AI-SSD/computational storage, chiplets, and heterogeneous accelerators, shifting the design focus from a single system to a complex heterogeneous system architecture. More specifically, with the advent of the Agentic AI era, there is an even greater need for scalable, efficient, and collaborative infrastructure that integrates xPU computing and tiered storage resources. Moreover, there is an even greater need for software and hardware co-design and co-optimization.",
-    "Held in conjunction with <a class='micro-link' href='https://www.microarch.org/micro59/'>MICRO 2026</a>, the workshop will bring together researchers and practitioners from computer architecture, systems, memory and storage, compilers and runtime systems, and industry to discuss the next generation of scalable AI hardware and software platforms. The goal is to provide a forum for presenting new ideas, practical experiences, and cross-layer solutions for building efficient, high-performance, and deployable AI infrastructure."
+    "Held in conjunction with the 59th IEEE/ACM International Symposium on Microarchitecture (<a class='micro-link' href='https://www.microarch.org/micro59/'>MICRO 2026</a>), the workshop will bring together researchers and practitioners from computer architecture, systems, memory and storage, compilers and runtime systems, and industry to discuss the next generation of scalable AI hardware and software platforms. The goal is to provide a forum for presenting new ideas, practical experiences, and cross-layer solutions for building efficient, high-performance, and deployable AI infrastructure."
   ],
 
   // Call for papers text
@@ -110,7 +110,7 @@ const websiteData = {
 
   // Important dates
   dates: [
-    { label: "Paper submission deadline", value: "7th of Sept. 2026 (AoE)" },
+    { label: "Paper submission deadline", value: "September 7, 2026 (AoE)" },
     { label: "Author notification", value: "October 1, 2026 (AoE)" },
     { label: "Workshop date", value: "October 31, 2026" }
   ],
@@ -188,7 +188,6 @@ const websiteData = {
       initials: "ZL",
       name: "Zheng Li",
       affiliation: "Huawei Europe",
-      email: "TBD",
       details: "Zheng Li is a senior R&D and innovation leader with 20 years of international experience in computing architecture, AI, industrial software, and strategic research management. He received his PhD from INRIA, where his research focused on processor architecture and parallel programming models. He later held senior research positions at INRIA and IRT SystemX, contributing to multicore processor architecture and safety-critical real-time systems. Since 2017, Dr. Li has been with Huawei’s European Research Institute, where he leads innovation and academic development and supports strategic collaboration with leading research communities."
     },
     {

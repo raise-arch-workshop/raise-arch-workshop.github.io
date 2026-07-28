@@ -352,6 +352,10 @@
   .program-committee-list li:nth-child(3n + 2) {
     transform: translateX(12px);
   }
+
+  .program-committee-list li:nth-child(3n + 3) {
+    transform: translateX(-12px);
+  }
 }
 
 @media (max-width: 1300px) {
