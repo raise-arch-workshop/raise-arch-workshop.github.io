@@ -181,8 +181,8 @@ const websiteData = {
     {
       initials: "BH",
       name: "Brian Hirano",
-      affiliation: "XCENA",
-      details: "Brian Hirano is currently Vice President of Business Development at XCENA, a Korean-based developing CXL modules with advanced features. He has had over 35 years in senior technical roles, at Micron, Bigstream (a data analytics acceleration company), and Oracle. Brian areas of interests are high-performance database systems, system architectures, and workload characterization. He serves in industry working groups in Open Compute Platform and SNIA. Brian was the guest editor of the IEEE Micro Special issue on Data-Centric Computing. He has served on program committees for various conferences, including MICRO and Top Picks."
+      affiliation: "Independent Technologist",
+      details: "Brian Hirano has over 35 years of experience in senior technical roles in software and hardware at Oracle, Micron, and HW/SW co-design startups. He was most recently Vice President of Business Development at XCENA, a Korean-based builder of CXL devices with advanced features. Brian has served on working groups under the Open Compute Project, ML Commons,  and the CXL Consortium, and also has served on program committees for various academic conferences including MICRO and IEEE Top Picks. Brian was a guest co-editor of the recent IEEE Micro Special Issue on Data-Centric Computing. Brian's areas of interest are high-performance database systems, scale-up and scale-out system architectures, heterogeneous compute, and workload characterization."
     },
     {
       initials: "ZL",
