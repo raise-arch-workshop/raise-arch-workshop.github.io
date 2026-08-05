@@ -1,0 +1,98 @@
+CALL FOR PAPERS
+
+RAISE-Arch: Refactoring Heterogeneous Systems Architectures for Scalable and Efficient AI Infrastructure
+
+October 31, 2026
+Athens, Greece
+Co-located with MICRO 2026
+
+
+ABOUT THE WORKSHOP
+
+RAISE-Arch is the first edition of an industry–academic workshop on architectural directions for AI systems, where computing resources, memory bandwidth, memory capacity, storage access, and interconnect scalability are first-order bottlenecks. Modern AI infrastructures increasingly depend on technologies such as HBM, HBF, CXL, AI-SSD/computational storage, chiplets, and heterogeneous accelerators, shifting the design focus from a single system to a complex heterogeneous system architecture. More specifically, with the advent of the Agentic AI era, there is an even greater need for scalable, efficient, and collaborative infrastructure that integrates xPU computing and tiered storage resources. Moreover, there is an even greater need for software and hardware co-design and co-optimization.
+
+Held in conjunction with MICRO 2026, the workshop will bring together researchers and practitioners from computer architecture, systems, memory and storage, compilers and runtime systems, and industry to discuss the next generation of scalable AI hardware and software platforms. The goal is to provide a forum for presenting new ideas, practical experiences, and cross-layer solutions for building efficient, high-performance, and deployable AI infrastructure.
+
+
+
+CALL FOR PAPERS
+
+RAISE-Arch invites researchers, developers, and professionals from academia and industry to submit extended abstracts related to the workshop topics. Submissions may describe work-in-progress ideas, position and vision statements, benchmarking and evaluation studies, early-stage research, industry experience, or discussion-oriented contributions. The program will include invited talks and selected presentations based on the submitted contributions. Please see the Submission Guidelines for format and submission details.
+
+
+TOPICS OF INTEREST
+
+* Heterogeneous architectures for new AI infrastructure
+* Data-centric and memory-centric design, near-data and in-memory computing (PIM, NDP, near-memory)
+* Architectures for reducing data movement across compute, memory, and storage
+* HBM, HBF, CXL, chiplets, and disaggregated-memory architectures for AI
+* Computational storage, AI-SSD, and flash-assisted AI system architectures
+* AI accelerators, NPUs, FPGAs, heterogeneous SoCs, and rack-scale AI platforms
+* Redefining CPU architecture and capacity for Agentic AI infrastructure
+* Benchmarking and evaluation methodologies for data-centric architectures
+* Tracing and simulation methodologies for emerging workloads
+
+
+
+SUBMISSION GUIDELINES
+
+* RAISE-Arch welcomes submissions in the form of extended abstracts related to the workshop topics.
+* Submissions should be max 2 pages, excluding references, using a double-column format, and submitted as a printable PDF file.
+* Each submission must be in English and include the title, author names, affiliations, and contact email. Submissions should not be anonymized.
+* We encourage authors to use the provided LaTeX template: https://raise-arch-workshop.github.io/assets/documents/Sample_Workshop_Template.zip
+* No formal proceedings are planned, and submissions are intended to be non-archival. Presentation slides or related materials may be posted on the workshop website after the event, subject to author approval.
+* At least one author of each accepted contribution is expected to attend the workshop and present the work.
+
+
+IMPORTANT DATES
+
+* Paper submission: September 7, 2026 (AoE)
+* Author notification: October 1, 2026 (AoE)
+* Workshop: October 31, 2026
+
+
+WEBSITE & SUBMISSION
+
+Workshop website:
+https://raise-arch-workshop.github.io/
+
+Submit a paper:
+https://easychair.org/my/conference?conf=raisearch2026
+
+
+
+ORGANIZERS
+
+* Andreas Koch (Technical University of Darmstadt)
+* Sajjad Tamimi (Huawei Europe)
+* Boris Grot (University of Edinburgh)
+* Freddy Gabbay (Hebrew University of Jerusalem)
+* Brian Hirano (XCENA)
+* Zheng Li (Huawei Europe)
+* Zhou Yigang (Huawei China)
+
+
+PROGRAM COMMITTEE
+
+* Shaahin Angizi (New Jersey Institute of Technology)
+* Mohammad Alian (Cornell University)
+* Ashkan Asgharzadeh (Barcelona Supercomputing Center)
+* Stefano Cordo (Huawei)
+* Jonas Dann (ETH Zürich)
+* Sina Darabi (Barcelona Supercomputing Center)
+* Holger Fröning (Heidelberg University)
+* Jana Giceva (Technical University of Munich)
+* João P. C. Lima (TU Dresden)
+* Mohammad Loni (Volvo Autonomous Solutions)
+* Haiyu Mao (King’s College London)
+* Geraldo F. Oliveira (Huawei)
+* Daniele Passaretti (Otto-von-Guericke University Magdeburg)
+* Ilia Petrov (Reutlingen University)
+* Stratos Psomadakis (National Technical University of Athens)
+* Nezam Rohbani (Barcelona Supercomputing Center)
+* Leonardo Solis-Vasquez (TU Darmstadt)
+* Nima TaheriNejad (Heidelberg University)
+* Mohammad Kazem Taram (Purdue University)
+* Lukas Sommer (AMD)
+* Sara Vinco (Politecnico di Torino)
+* Chenyu Zeng (Huawei)
