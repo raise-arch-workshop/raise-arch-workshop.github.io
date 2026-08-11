@@ -67,7 +67,7 @@ ORGANIZERS
 * Sajjad Tamimi (Huawei Europe)
 * Boris Grot (University of Edinburgh)
 * Freddy Gabbay (Hebrew University of Jerusalem)
-* Brian Hirano (XCENA)
+* Brian Hirano (Independent Technologist)
 * Zheng Li (Huawei Europe)
 * Zhou Yigang (Huawei China)
 
