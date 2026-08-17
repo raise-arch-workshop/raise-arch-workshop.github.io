@@ -250,6 +250,17 @@ function createPersonCard(person) {
 
 function createOrganizerCard(person, index) {
   const name = isPlaceholderName(person.name) ? `Organizer ${index + 1}` : person.name;
+  const organizerLinks = {
+    "Andreas Koch": "https://www.esa.informatik.tu-darmstadt.de/team/ahk",
+    "Sajjad Tamimi": "https://www.linkedin.com/in/sajjad-tamimi/",
+    "Boris Grot": "https://homepages.inf.ed.ac.uk/bgrot/",
+    "Brian Hirano": "https://www.linkedin.com/in/brian-hirano-98b9aa/",
+    "Freddy Gabbay": "https://www.linkedin.com/in/freddy-gabbay-71706b1/",
+    "Zheng Li": "https://fr.linkedin.com/in/zheng-li-99233a2b"
+  };
+  const organizerName = organizerLinks[name]
+    ? `<a class="template-link" href="${organizerLinks[name]}" target="_blank" rel="noopener noreferrer">${name}</a>`
+    : `<span class="template-link">${name}</span>`;
   const affiliation = person.affiliation || "TBD";
   const emailMarkup = person.email
     ? person.email === "TBD"
@@ -265,7 +276,7 @@ function createOrganizerCard(person, index) {
     <article class="organizer-profile" tabindex="0">
       <div class="organizer-photo">${image}</div>
       <div class="organizer-info">
-        <h3>${name}</h3>
+        <h3>${organizerName}</h3>
         <p class="organizer-affiliation">${affiliation}</p>
         ${emailMarkup}
         <p class="organizer-details">${details}</p>
