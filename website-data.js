@@ -126,7 +126,7 @@ const websiteData = {
     { name: "Shaahin Angizi", affiliation: "New Jersey Institute of Technology" },
     { name: "Mohammad Alian", affiliation: "Cornell University" },
     { name: "Ashkan Asgharzadeh", affiliation: "Barcelona Supercomputing Center" },
-    { name: "Stefano Cordo", affiliation: "Huawei" },
+    { name: "Stefano Corda", affiliation: "Huawei" },
     { name: "Jonas Dann", affiliation: "ETH Zürich" },
     { name: "Sina Darabi", affiliation: "Barcelona Supercomputing Center" },
     { name: "Holger Fröning", affiliation: "Heidelberg University" },
