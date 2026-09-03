@@ -110,7 +110,7 @@ const websiteData = {
 
   // Important dates
   dates: [
-    { label: "Paper submission deadline", value: "September 7, 2026 (AoE)" },
+    { label: "Paper submission deadline", value: "<del style='font-weight: 400;'>September 7, 2026</del> September 23, 2026 (AoE)" },
     { label: "Author notification", value: "October 1, 2026 (AoE)" },
     { label: "Workshop date", value: "October 31, 2026" }
   ],
