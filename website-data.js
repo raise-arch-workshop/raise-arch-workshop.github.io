@@ -139,7 +139,7 @@ const websiteData = {
     { name: "Ilia Petrov", affiliation: "Reutlingen University" },
     { name: "Stratos Psomadakis", affiliation: "National Technical University of Athens" },
     { name: "Nezam Rohbani", affiliation: "Barcelona Supercomputing Center" },
-    { name: "Leonardo Solis-Vasquez", affiliation: "TU Darmstadt" },
+    { name: "Leonardo Solis-Vasquez", affiliation: "Universidad de Ingeniería y Tecnología" },
     { name: "Lukas Sommer", affiliation: "AMD" },
     { name: "Nima TaheriNejad", affiliation: "Heidelberg University" },
     { name: "Mohammad Kazem Taram", affiliation: "Purdue University" },
