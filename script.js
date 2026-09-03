@@ -163,7 +163,9 @@ function renderPage() {
       ? `
         <ul class="submission-list program-committee-list">
           ${websiteData.programCommittee
-            .map(person => `<li>${person.name} (${person.affiliation})</li>`)
+            .map(person => person.name === "Leonardo Solis-Vasquez"
+              ? `<li>${person.name}<br>(${person.affiliation})</li>`
+              : `<li>${person.name} (${person.affiliation})</li>`)
             .join("")}
         </ul>
       `
