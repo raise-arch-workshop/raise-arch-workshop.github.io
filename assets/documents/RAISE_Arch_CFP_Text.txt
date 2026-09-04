@@ -90,7 +90,7 @@ PROGRAM COMMITTEE
 * Ilia Petrov (Reutlingen University)
 * Stratos Psomadakis (National Technical University of Athens)
 * Nezam Rohbani (Barcelona Supercomputing Center)
-* Leonardo Solis-Vasquez (TU Darmstadt)
+* Leonardo Solis-Vasquez (Universidad de Ingeniería y Tecnología)
 * Nima TaheriNejad (Heidelberg University)
 * Mohammad Kazem Taram (Purdue University)
 * Lukas Sommer (AMD)
