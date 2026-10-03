@@ -144,7 +144,8 @@ const websiteData = {
     { name: "Nima TaheriNejad", affiliation: "Heidelberg University" },
     { name: "Mohammad Kazem Taram", affiliation: "Purdue University" },
     { name: "Sara Vinco", affiliation: "Politecnico di Torino" },
-    { name: "Chenyu Zeng", affiliation: "Huawei" }
+    { name: "Yaoguang Wang", affiliation: "Huawei" },
+    { name: "Yiming Chen", affiliation: "Huawei" }
   ],
 
 
