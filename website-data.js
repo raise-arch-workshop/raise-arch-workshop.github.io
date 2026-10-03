@@ -126,6 +126,7 @@ const websiteData = {
     { name: "Shaahin Angizi", affiliation: "New Jersey Institute of Technology" },
     { name: "Mohammad Alian", affiliation: "Cornell University" },
     { name: "Ashkan Asgharzadeh", affiliation: "Barcelona Supercomputing Center" },
+    { name: "Yiming Chen", affiliation: "Huawei" },
     { name: "Stefano Corda", affiliation: "Huawei" },
     { name: "Jonas Dann", affiliation: "ETH Zürich" },
     { name: "Sina Darabi", affiliation: "Barcelona Supercomputing Center" },
@@ -144,8 +145,7 @@ const websiteData = {
     { name: "Nima TaheriNejad", affiliation: "Heidelberg University" },
     { name: "Mohammad Kazem Taram", affiliation: "Purdue University" },
     { name: "Sara Vinco", affiliation: "Politecnico di Torino" },
-    { name: "Yaoguang Wang", affiliation: "Huawei" },
-    { name: "Yiming Chen", affiliation: "Huawei" }
+    { name: "Yaoguang Wang", affiliation: "Huawei" }
   ],
 
 
