@@ -10,16 +10,13 @@
 .program-table tbody th,.program-table tbody td{vertical-align:top;padding:18px 22px}
 .program-table tbody tr+tr th,.program-table tbody tr+tr td{border-top:1px solid var(--line)}
 .program-table .program-time{color:var(--blue);font-family:ui-monospace,monospace;font-size:.9rem;font-weight:800;white-space:nowrap;text-align:left;border-right:1px solid var(--line)}
-.program-entry-title{font-size:1.06rem;font-weight:750;line-height:1.45;margin:0;color:var(--ink)}
+.program-entry-title{font-size:1.06rem;font-weight:750;line-height:1.45;margin:0;color:var(--blue)}
 .program-papers{display:grid;gap:10px;margin-top:16px}
 .program-paper{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 15px}
-.program-paper-title{color:var(--ink);font-size:1rem;font-weight:650;line-height:1.5}
+.program-paper-title{color:var(--blue);font-size:1rem;font-weight:650;line-height:1.5}
 .program-paper-authors{margin-top:5px;color:var(--muted);font-size:.9rem;line-height:1.55}
-.program-row--keynote .program-entry,.program-row--industry .program-entry{background:#edf7fd;box-shadow:inset 4px 0 0 var(--blue)}
-.program-row--session-one .program-entry{background:#f4faff;box-shadow:inset 4px 0 0 var(--blue)}
-.program-row--session-two .program-entry{background:#f0fbfb;box-shadow:inset 4px 0 0 #009fa7}
-.program-row--session-one .program-entry-title{color:var(--blue)}
-.program-row--session-two .program-entry-title{color:#007f88}
+/* Use one blue accent for all sessions and talks; the coffee break stays neutral. */
+.program-row:not(.program-row--break) .program-entry{background:#edf7fd;box-shadow:inset 4px 0 0 var(--blue)}
 .program-row--break th,.program-row--break td{background:#f1f5f9}
 @media(max-width:640px){
   .program-table thead{display:none}
