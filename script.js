@@ -144,13 +144,33 @@ function renderPage() {
 
   document.getElementById("program-list").innerHTML =
     websiteData.program.length
-      ? websiteData.program.map(item => `
-        <div class="program-card">
-          <div class="program-time">${item.time}</div>
-          <h3>${item.title}</h3>
-          <p>${item.detail}</p>
+      ? `
+        <div class="program-table-wrap">
+          <table class="program-table">
+            <thead><tr><th scope="col">Time</th><th scope="col">Program</th></tr></thead>
+            <tbody>
+              ${websiteData.program.map(item => `
+                <tr class="program-row program-row--${item.type || "standard"}">
+                  <th scope="row" class="program-time">${item.time}</th>
+                  <td class="program-entry">
+                    <h3 class="program-entry-title">${item.title}</h3>
+                    ${item.papers ? `
+                      <div class="program-papers">
+                        ${item.papers.map(paper => `
+                          <div class="program-paper">
+                            <div class="program-paper-title">${paper.title}</div>
+                            <div class="program-paper-authors">${paper.authors}</div>
+                          </div>
+                        `).join("")}
+                      </div>
+                    ` : ""}
+                  </td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
         </div>
-      `).join("")
+      `
       : createTbdCard();
 
   document.getElementById("speakers-list").innerHTML =
