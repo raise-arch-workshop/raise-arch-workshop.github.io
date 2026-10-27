@@ -154,6 +154,21 @@ function renderPage() {
                   <th scope="row" class="program-time">${item.time}</th>
                   <td class="program-entry">
                     <h3 class="program-entry-title">${item.title}</h3>
+                    ${item.keynote ? `
+                      <div class="program-keynote">
+                        <h4 class="program-keynote-title">${item.keynote.title}</h4>
+                        <div class="program-keynote-layout">
+                          <img class="program-keynote-photo" src="${item.keynote.photo}" alt="${item.keynote.speaker}" width="755" height="507" loading="lazy" />
+                          <div>
+                            <p class="program-keynote-speaker"><strong>Speaker:</strong> ${item.keynote.speaker} <span class="program-keynote-affiliation">(${item.keynote.affiliation})</span></p>
+                            <h5 class="program-keynote-heading">Abstract:</h5>
+                            <p class="program-keynote-text">${item.keynote.abstract}</p>
+                            <h5 class="program-keynote-heading">Bio:</h5>
+                            <p class="program-keynote-text">${item.keynote.bio}</p>
+                          </div>
+                        </div>
+                      </div>
+                    ` : ""}
                     ${item.papers ? `
                       <div class="program-papers">
                         ${item.papers.map(paper => `

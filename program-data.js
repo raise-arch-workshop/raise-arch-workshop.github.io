@@ -8,7 +8,15 @@ websiteData.program = [
   {
     "time": "08:10–09:00",
     "type": "keynote",
-    "title": "Keynote Speaker (TBD)"
+    "title": "Keynote Speaker",
+    "keynote": {
+      "title": "MangoBoost: Fast, Scalable, Cost-Effective AI Infrastructure for Agentic AI Workloads",
+      "speaker": "Jangwoo Kim",
+      "affiliation": "MangoBoost & Seoul National University",
+      "photo": "assets/images/jangwoo-kim.jpg",
+      "abstract": "The recent AI explosion is reshaping the modern datacenter infrastructure which consists of many servers equipped with many devices (e.g., CPU, GPU, NPU, SSD, NIC). However, conventional server architectures severely suffer from critical performance and scalability challenges in executing the ever-increasing AI applications. In this talk, I will first explain the key challenges in conventional computer systems from the perspective of scalable networking, and then introduce the next-generation server architectures driven by fast, smart and flexible network acceleration solutions from MangoBoost.",
+      "bio": "Jangwoo Kim is a full professor at Seoul National University. His research interests include computer system architecture, quantum computing, and neuromorphic computing. He is also the CEO and founder of MangoBoost which provides the next-generation AI infrastructure tailored for agentic AI workloads. He earned his PhD degree from Carnegie Mellon University, and his BS and M.Eng degrees from Cornell University. Prior to his academic career, he worked as a CPU/system architect at Sun Microsystems and Oracle to develop UltraSPARC T4 CPUs and servers."
+    }
   },
   {
     "time": "09:00–10:00",
