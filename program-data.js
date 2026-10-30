@@ -80,7 +80,7 @@ websiteData.program = [
       },
       {
         "title": "Building the Data Backbone for AI: Research Challenges and the Huawei OlympusMons Awards",
-        "authors": "Shai Aviram Bergman"
+        "authors": "Shai Bergman"
       }
     ]
   },
