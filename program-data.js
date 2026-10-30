@@ -52,10 +52,6 @@ websiteData.program = [
     "title": "Session 2: Heterogeneous Architectures and Hardware–Software Co-Design",
     "papers": [
       {
-        "title": "Characterizing High Bandwidth Flash for LLM Serving",
-        "authors": "Zack Yu, Chloe Wong, Coleman Hooper, Minjae Lee, Wonjun Kang, Youngjin Cho, Michael W. Mahoney, Yakun Sophia Shao, Kurt Keutzer, Amir Gholami"
-      },
-      {
         "title": "Compiling High-Level Programs for Heterogeneous CIM/CNM Systems",
         "authors": "João P. C. de Lima, Asif Ali Khan, Hamid Farzaneh, Jeronimo Castrillon"
       },
@@ -66,13 +62,27 @@ websiteData.program = [
       {
         "title": "imPIM: Host-Decoupled PIM Orchestration for Long-Context Sparse Attention",
         "authors": "Zhichun Li, Xinlei Nie, Shunchen Shi, Yu Huang, Xiaoming Chen, Xueqi Li"
+      },
+      {
+        "title": "Characterizing High Bandwidth Flash for LLM Serving",
+        "authors": "Zack Yu, Chloe Wong, Coleman Hooper, Minjae Lee, Wonjun Kang, Youngjin Cho, Michael W. Mahoney, Yakun Sophia Shao, Kurt Keutzer, Amir Gholami"
       }
     ]
   },
   {
     "time": "11:30–11:55",
     "type": "industry",
-    "title": "Industry Perspective (TBD)"
+    "title": "Industry Perspectives",
+    "papers": [
+      {
+        "title": "SuperPoD: A New Computing Architecture for the Agentic Era",
+        "authors": "Zichen Fan"
+      },
+      {
+        "title": "Building the Data Backbone for AI: Research Challenges and the Huawei OlympusMons Awards",
+        "authors": "Shai Aviram Bergman"
+      }
+    ]
   },
   {
     "time": "11:55–12:00",
